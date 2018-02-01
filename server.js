@@ -1,5 +1,6 @@
 
 // this is basically an example of using Handlebars
+
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
@@ -37,8 +38,8 @@ hbs.registerHelper('screamIt', (text) => {
 
 app.get('/', (req, res) => {
   res.render('home.hbs', {
-    pageTitle: 'Home Page',
-    welcomeMessage: 'Welcome to my website'
+    pageTitle: 'Home Page Central',
+    welcomeMessage: 'Welcome to my website yall'
   });
 });
 
